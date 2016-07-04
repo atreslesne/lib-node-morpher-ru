@@ -1,5 +1,7 @@
 #morpher-ru
 
+[![Build Status](https://travis-ci.org/atreslesne/lib-node-morpher-ru.svg?branch=master)](https://travis-ci.org/atreslesne/lib-node-morpher-ru)
+
 Библиотека для склонения по падежам слов и словосочетаний на русском языке,
 использующая веб-сервис ["Морфер"](http://morpher.ru/).
 
