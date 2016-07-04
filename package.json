@@ -1,0 +1,28 @@
+{
+  "name": "morpher-ru",
+  "version": "1.0.0",
+  "author": "Atres Lesne <brain@atreslesne.com>",
+  "license": "MIT",
+  "description": "Библиотека для склонения слов и словосочетаний с использованием сервиса Морфер (morpher.ru)",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha -R spec",
+    "coverage": "NODE_ENV=test ./node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -u exports -R spec test/**/test*.js",
+    "coveralls": "NODE_ENV=test ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -fr ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atreslesne/lib-node-morpher-ru"
+  },
+  "dependencies": {
+    "http-hosts-pool": "^0.1.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "mocha": "^2.5.3",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}
