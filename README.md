@@ -1,6 +1,7 @@
 #morpher-ru
 
 [![Build Status](https://travis-ci.org/atreslesne/lib-node-morpher-ru.svg?branch=master)](https://travis-ci.org/atreslesne/lib-node-morpher-ru)
+[![Coverage Status](https://coveralls.io/repos/github/atreslesne/lib-node-morpher-ru/badge.svg?branch=master)](https://coveralls.io/github/atreslesne/lib-node-morpher-ru?branch=master)
 
 Библиотека для склонения по падежам слов и словосочетаний на русском языке,
 использующая веб-сервис ["Морфер"](http://morpher.ru/).

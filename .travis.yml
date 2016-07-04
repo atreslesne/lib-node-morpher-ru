@@ -1,4 +1,12 @@
 language: node_js
 node_js:
-  - "6"
-script: "npm run coveralls"
+- '6'
+script: npm run coveralls
+deploy:
+  provider: npm
+  email: brain@atreslesne.com
+  api_key:
+    secure: ETeAcs/R26/WOVz1aTn6/DpEn3v2iEVilsrKzTYBYPt0KIqB35AR0LbE8/HMR/PVlPyQGn9hyroTgKe+R5kOX6HXnL5aSe8iTCY9774GOKzkvcPCUveoJZ8Bd/tuO0ehTkp3vApNe8AgxCcumMKPAkk0zniGxujAO6owJD5NobrUxMmEC9MsvN5RdEcVJ5wl5MPeuSN9f5EEeIYVrL9ANHbmiMfenk/kq2CtoiZwZ6PxcOKjQwe+SnAO4oy4yeRrP0V0sLyThl84E8rNBwYiP1uBVVoHL83iF6T4tDHmSD2HD9YFKUu9GDVp8oVNoPi+IGnRMIcIIJluYEO6WFUUtuLLTmvbGvWLqD6Wz3wwnmPK1twEhh4lNDZfygKujMdoEAhm2p2S6Wo8tHm8i359zXwhiJO1RHIY88GnXEC5rdxmLV2kSHQukdSG5sC97K28HzYcgOnstnXq9C+pYY/10pVjQfMbZevxGqeshO0JetlDfggGc5yz7Ve5Mi+fV88EK0JyeV6s/ZFclx4oztiAstekwuqD32Iff6dTHkUyYO21j5t1h5saylpvA204MHl2uJsw6XNn39/EKXq3HD56bgdA8oPNJ0pbMQ4+mxYutCED8aiR5TJnzqKHp5JuCtugp7UT8TSFarSEN/mXulil1xxAZvXobzVNVaLZ/lveMFU=
+  on:
+    tags: true
+    repo: atreslesne/lib-node-morpher-ru
