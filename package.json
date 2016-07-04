@@ -1,6 +1,6 @@
 {
   "name": "morpher-ru",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "Atres Lesne <brain@atreslesne.com>",
   "license": "MIT",
   "description": "Библиотека для склонения слов и словосочетаний с использованием сервиса Морфер (morpher.ru)",
