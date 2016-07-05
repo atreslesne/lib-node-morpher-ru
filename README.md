@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/atreslesne/lib-node-morpher-ru.svg?branch=master)](https://travis-ci.org/atreslesne/lib-node-morpher-ru)
 [![Coverage Status](https://coveralls.io/repos/github/atreslesne/lib-node-morpher-ru/badge.svg?branch=master)](https://coveralls.io/github/atreslesne/lib-node-morpher-ru?branch=master)
+[![npm version](https://badge.fury.io/js/morpher-ru.svg)](https://badge.fury.io/js/morpher-ru)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/atreslesne/lib-node-morpher-ru/master/LICENSE)
 
 Библиотека для склонения по падежам слов и словосочетаний на русском языке,
 использующая веб-сервис ["Морфер"](http://morpher.ru/).
